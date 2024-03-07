@@ -28,6 +28,7 @@ def authenticate():
 # Autenticar o usuário antes de prosseguir
 authenticated, logged_in_user = authenticate()
 if authenticated:
+   
     def welcome_page():
         st.markdown('### 👋🏻👨🏻‍💻 Bem-vindo(a) às Ferramentas de Formatação de Horas: OiTchau para o TOTVS')
         st.write("Esta é uma aplicação multifuncional que oferece diversas funcionalidades úteis.")
@@ -84,13 +85,17 @@ if authenticated:
             st.write(f'<a href="{canva_link}" target="_blank">Manual - Horas Extras (Oitchau) - Gestores</a> 08/08/2023 - V1.0 - Bruna Silva, 08/08/2023', unsafe_allow_html=True)
     
     
+    
+    
+    
     def main():
-        st.set_page_config(
-            page_title="Hagliberto Alves de Oliveira",
-            page_icon="👨🏻‍💻",
-            layout="wide",
-            initial_sidebar_state="collapsed",  # Expandir a barra lateral por padrão
-        )
+            st.set_page_config(
+                page_title="Hagliberto Alves de Oliveira",
+                page_icon="👨🏻‍💻",
+                layout="wide",
+                initial_sidebar_state="collapsed",  # Expandir a barra lateral por padrão
+            )
+            
     
         # Definindo o estilo CSS para o rodapé
         footer_style = """
