@@ -28,7 +28,6 @@ def authenticate():
 # Autenticar o usuário antes de prosseguir
 authenticated, logged_in_user = authenticate()
 if authenticated:
-    def welcome_page():
    
     def welcome_page():
         st.markdown('### 👋🏻👨🏻‍💻 Bem-vindo(a) às Ferramentas de Formatação de Horas: OiTchau para o TOTVS')
