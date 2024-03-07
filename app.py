@@ -28,7 +28,6 @@ def authenticate():
 # Autenticar o usuário antes de prosseguir
 authenticated, logged_in_user = authenticate()
 if authenticated:
-   
     def welcome_page():
         st.markdown('### 👋🏻👨🏻‍💻 Bem-vindo(a) às Ferramentas de Formatação de Horas: OiTchau para o TOTVS')
         st.write("Esta é uma aplicação multifuncional que oferece diversas funcionalidades úteis.")
@@ -83,9 +82,6 @@ if authenticated:
             st.write(f'<a href="{Jornada_Noturna}" target="_blank">Jornada de Trabalho Noturno:</a>  Que Você Precisa Saber? - Leonardo Barros, 05/04/2023', unsafe_allow_html=True)
             st.write(f'<a href="{Horas_extras}" target="_blank">Horas Extras:</a> Guia de como fazer uma gestão completa! - Aline Mesquita, 1/07/2023', unsafe_allow_html=True)
             st.write(f'<a href="{canva_link}" target="_blank">Manual - Horas Extras (Oitchau) - Gestores</a> 08/08/2023 - V1.0 - Bruna Silva, 08/08/2023', unsafe_allow_html=True)
-    
-    
-    
     
     
     def main():
