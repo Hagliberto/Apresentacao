@@ -106,9 +106,10 @@ def main():
         st.markdown('- 🗓️[Calendário de Escalas](https://hagliberto-calendario-de-escalas.streamlit.app/)')
         st.markdown('- 📝[Lançamentos do Setor](https://teste-lancamentos-do-setor.streamlit.app/)')
         st.markdown('- 🚸[Auxílio Educação](https://hagliberto-creche-testes.streamlit.app/)')
-        st.markdown('- #####  ☎️ [`Lista Telefônica da CAERN`](https://lista-telefonica-caern.streamlit.app/)')
-        st.markdown('- #####  🚗 🚒 🚜[𝕍𝕖𝕣𝕓𝕒 1️⃣5️⃣4️⃣ - `Adicional Temporário de Condução de Veículos`](https://hagliberto-atcv.streamlit.app/)')
-        st.markdown('- #####  [𝕍𝕖𝕣𝕓𝕒 4️⃣1️⃣6️⃣ `Faltas` | 𝕍𝕖𝕣𝕓𝕒 4️⃣9️⃣3️⃣ `DSR sobre Faltas`](https://hagliberto-dsr.streamlit.app/)')
+        st.markdown('- ##### ☎️ [`Lista Telefônica da CAERN`](https://lista-telefonica-caern.streamlit.app/)')
+        st.markdown('- ##### 🚗 🚒 🚜[𝕍𝕖𝕣𝕓𝕒 1️⃣5️⃣4️⃣ - `Adicional Temporário de Condução de Veículos`](https://hagliberto-atcv.streamlit.app/)')
+        st.markdown('- ##### 💸 [𝕍𝕖𝕣𝕓𝕒 4️⃣1️⃣6️⃣ `Faltas` | 𝕍𝕖𝕣𝕓𝕒 4️⃣9️⃣3️⃣ `DSR sobre Faltas`](https://hagliberto-dsr.streamlit.app/)')
+        st.markdown('- ##### 🎲 [Gerar Base de Dados  `Educação e Empregados`](https://bdcreche.streamlit.app/)')
         
         
         
