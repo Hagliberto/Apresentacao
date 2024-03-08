@@ -1,8 +1,8 @@
 import streamlit as st
 
 def welcome_page():
-    st.markdown('### 👋🏻👨🏻‍💻 Bem-vindo(a) às Ferramentas de Formatação de Horas: OiTchau para o TOTVS')
-    st.write("Esta é uma aplicação multifuncional que oferece diversas funcionalidades úteis.")
+    st.markdown('### 👋🏻👨🏻‍💻 Bem-vindo(a) às Minhas Ferramentas de Gestão de RH e Formatação de Horas: OiTchau para o TOTVS')
+    st.info("Esta é uma aplicação multifuncional que oferece diversas funcionalidades úteis para os Núcleos de Pessoal.")
     
     
     # Seção sobre a aplicação
