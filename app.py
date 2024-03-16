@@ -64,8 +64,9 @@ def main():
         page_title="Hagliberto Alves de Oliveira",
         page_icon="👨🏻‍💻",
         layout="wide",
-        initial_sidebar_state="collapsed",  # Expandir a barra lateral por padrão
-    )
+        initial_sidebar_state="expanded",
+        menu_items={"About": "`Página inicial:`🌍 https://hagliberto.streamlit.app/"}  
+)
 
     # Definindo o estilo CSS para o rodapé
     footer_style = """
